@@ -19,8 +19,7 @@
 2. Intro to Authentication
 3. Why OAuth?
 4. What is OAuth?
-5. Preview the Completed `mongoose-movies` App
-6. Today's OAuth Game Plan
+5. Today's OAuth Game Plan
     - **Step 1:** Register our App with Google's OAuth Server
     - **Step 2:** Define the `User` model
     - **Step 3:** Discuss PassportJS
@@ -31,9 +30,7 @@
     - **Step 8:** Configure Passport
     - **Step 9:** Define routes for authentication
     - **Step 10:** Add Login/Logout UI
-7. Code the User Stories
-8. Implement Authorization
-9. Challenge Exercise (optional)
+6. Implement Authorization
 
 
 
