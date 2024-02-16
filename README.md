@@ -806,7 +806,7 @@ We're going to need three auth related routes:
 
 We're going to code these three new auth related routes in our server.js file
 
-These new routes will need to access the `passport` module, so let's require it in **routes/index.js**:
+These new routes will need to access the `passport` module, so let's require it in **server.js**:
 
 ```js
 // new code below
@@ -815,7 +815,7 @@ const passport = require('passport');
 
 #### Step 9.2 Login Route
 
-In **routes/index.js**, let's add the login route below the root route:
+In **server.js**, let's add the login route below the root route:
 
 ```js
 // Google OAuth login route
@@ -988,7 +988,7 @@ Express's middleware and routing is extremely flexible and powerful.
 
 We can add multiple middleware functions before a route's final middleware function!
 
-Let's modify **routes/movies.js** to protect routes that require a logged in user using our new ensureLoggedIn middleware:
+Let's modify **server.js** to protect routes that require a logged in user using our new ensureLoggedIn middleware:
 
 ```js
 // This works with a MoviesDB, with an attached controller you can create
